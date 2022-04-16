@@ -2,6 +2,8 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 
+@import url(native.css);
+
 //colors
 $color_suva_gray_approx: #888;
 $color_blaze_orange_approx: #ff6600;
