@@ -10,13 +10,14 @@ encoding: utf-8
 twitter_username: michaelkramer
 github_username:  michaeljosephkramer
 linkedin_username:  michaeljosephkramer
-facebook_username:  michaeljosephkramer
-disqus_username:  michaeljosephkramer
 google_analytics_id: G-ZRS7X9WFGF
-clicky_id: 66487006
 highlighter: rouge
-safe: true
+safe: false
 lsi: false
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Build settings
 permalink: pretty
